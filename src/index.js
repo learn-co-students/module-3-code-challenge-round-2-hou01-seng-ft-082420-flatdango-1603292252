@@ -49,8 +49,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         //sold out feature
         if (movie.tickets_sold == movie.capacity) {
-        ticketButton.className = "ui label"
-        ticketButton.innerText = "Sold Out"
+            ticketButton.className = "ui label"
+            ticketButton.innerText = "Sold Out"
         }
 
     }
