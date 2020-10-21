@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let poster = document.querySelector('#poster')
         poster.src = movie.poster
 
-        //buy ticket
+        //buy ticket feature
         let ticketButton = document.querySelector(".ui.orange.button")
         ticketButton.addEventListener("click", () => {
             let updatedTicketsSold = movie.tickets_sold + 1
@@ -55,9 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
         ticketButton.className = "ui label"
         ticketButton.innerText = "Sold Out"
         }
-
-       
-
 
     }
 
