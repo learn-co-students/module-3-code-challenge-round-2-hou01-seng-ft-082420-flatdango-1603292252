@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function(){
             e.preventDefault()
             //set if left ticket = 0 or ticket_sold = 30, then hide the Buy ticket option
             // let extracon = document.querySelector(".extra.content")
-            // if (b = 30){
+            // if (b == 30){
             //     extracon.innerHTML = ""
 
             // } else {
