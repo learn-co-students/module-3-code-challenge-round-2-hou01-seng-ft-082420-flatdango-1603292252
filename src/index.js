@@ -1,5 +1,3 @@
-const url = "http://localhost:3000/films"
-
 document.addEventListener("DOMContentLoaded", () => {
 
     //initial fetch
@@ -32,7 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
         let ticketButton = document.querySelector(".ui.orange.button")
         ticketButton.addEventListener("click", () => {
             let updatedTicketsSold = movie.tickets_sold + 1
-            // console.log(updatedTicketsSold)
 
             let patchOption = {
                 method: "PATCH",
